@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="img/nav_pic.png" />
+    <title>howardctc.me</title>
+  </head>
+
+  <body>
+    <!-- Top nav bar -->
+    <div>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseNav"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="collapseNav">
+            <ul class="navbar-nav nav-fill w-100">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >YOUTUBE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Section 1 - Jumbotron Div  -->
+    <div class="container-fluid section1">
+      <div class="row">
+        <div class="col-12 p-0">
+          <div
+            class="min-vh-100 text-center m-0 d-flex flex-column justify-content-center"
+          >
+            <h1 class="display-4">
+              Hello, I'm <span id="my-name">Howard Chan</span>.
+            </h1>
+            <p class="lead">I am a self-taught javascript web developer.</p>
+            <p class="lead">
+              Feel free to take a look at my latest demo in the
+              <b>projects section.</b>
+            </p>
+            <p class="lead">
+              Remotely available UTC+8. <b>stone.gchi@gmail.com</b>
+            </p>
+          </div>
+          <!-- moving circles  -->
+          <div class="animation-area">
+            <!-- empty lis for css nth:child -->
+            <ul class="moving-object">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 - Projects Div -->
+    <div id="projects" class="container-fluid section2 fade-in">
+      <h2>My Recent Works</h2>
+
+      <!-- nav to choose types -->
+      <ul id="nav-section2" class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-info" href="#">Javscript</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-info" href="#">Python</a>
+        </li>
+      </ul>
+      <!-- projects thumbnails -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6" id="test1">
+            <img
+              class="rounded mx-auto d-block img-fluid"
+              src="img/pj11.png"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img
+              class="rounded mx-auto d-block img-fluid"
+              src="img/pj11.png"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img
+              class="rounded mx-auto d-block img-fluid"
+              src="img/pj2.png"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img
+              class="rounded mx-auto d-block img-fluid"
+              src="img/pj22.png"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img
+              class="rounded mx-auto d-block img-fluid"
+              src="img/pj1.png"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img
+              class="rounded mx-auto d-block img-fluid"
+              src="img/pj11.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- button to github -->
+    </div>
+
+    <!-- Section 3 - Youtube?/ Testimonials -->
+    <div class="container-fluid section3 fade-in"></div>
+
+    <!-- Section 4 - About Me -->
+    <div class="container-fluid section4 fade-in">
+      <div class="row align-items-center">
+        <div class="col">
+          1 of 3
+        </div>
+        <div class="col-6">
+          <h2>
+            Get in touch
+          </h2>
+          <p class="text-center">
+            If you wanna get in touch, talk to me about a project collaboration
+            or just say hi, fill up the awesome form below or send an email to
+            stone.gchi@gmail.com and ~let's talk.
+          </p>
+          <h2>
+            Let's get social
+          </h2>
+          <p>
+            Follow my online page on Youtube and GitHub.
+          </p>
+        </div>
+        <div class="col">
+          3 of 3
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts sources -->
+    <!-- BootStrap, Gsap, ScrollMagic -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
